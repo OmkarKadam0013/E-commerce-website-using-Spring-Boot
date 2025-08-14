@@ -26,7 +26,7 @@ const Navbar = ({ onSelectCategory, onSearch }) => {
       setSearchResults(response.data);
       console.log(response.data);
     } catch (error) {
-      console.error("Error fetching data:", error);
+      console.error("Error fetching data by me:", error);
     }
   };
 
@@ -107,8 +107,8 @@ const Navbar = ({ onSelectCategory, onSearch }) => {
       <header>
         <nav className="navbar navbar-expand-lg fixed-top">
           <div className="container-fluid">
-            <a className="navbar-brand" href="https://telusko.com/">
-              Telusko
+            <a className="navbar-brand" href="/">
+              Demo Logo
             </a>
             <button
               className="navbar-toggler"

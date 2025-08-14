@@ -38,6 +38,7 @@ const Home = ({ selectedCategory }) => {
             }
           })
         );
+        console.log("Checking the updated product" , updatedProducts);
         setProducts(updatedProducts);
       };
 
